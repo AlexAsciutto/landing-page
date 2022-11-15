@@ -47,10 +47,6 @@ a {
 
 }
 
-li {
-    padding-left: 32px;
-}
-
 html, body {
   margin: 0; 
   padding: 0;
@@ -82,16 +78,25 @@ button {
     background-color: rgb(236, 200, 20);
 }
 
-/*third section*/
-
-.information, .container {
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-start;
-    flex:1;
+li.right {
+    margin-left:32px;
 }
 
-#unripe, #yellow {
-    width:200px;
-    height:auto;
+/*third section*/
+.information {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction:column;
+    margin-top: 16px;
+}
+
+#unripe, #yellow, #ripe {
+    width: 300px;
+    height: auto;
+}
+
+li.img {
+    margin-left:75px;
+    margin-right: 75px;
 }
