@@ -81,3 +81,11 @@ p {
 button {
     background-color: rgb(236, 200, 20);
 }
+
+/*third section*/
+
+.information, .container {
+    display:flex;
+    flex-direction:row;
+    flex:1;
+}
