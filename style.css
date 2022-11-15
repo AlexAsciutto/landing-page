@@ -87,10 +87,11 @@ button {
 .information, .container {
     display:flex;
     flex-direction:row;
+    justify-content: flex-start;
     flex:1;
 }
 
-#unripe {
+#unripe, #yellow {
     width:200px;
     height:auto;
 }
