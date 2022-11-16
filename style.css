@@ -82,7 +82,7 @@ li.right {
     margin-left:32px;
 }
 
-/*third section*/
+/*second section*/
 .information {
     display:flex;
     align-items:center;
@@ -99,4 +99,18 @@ li.right {
 li.img {
     margin-left:75px;
     margin-right: 75px;
+}
+
+.random-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 48px;
+}
+
+.quote {
+    width: 50%;
 }
